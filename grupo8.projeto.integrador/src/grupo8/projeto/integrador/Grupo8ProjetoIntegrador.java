@@ -509,8 +509,10 @@ public class Grupo8ProjetoIntegrador {
         verifyAnswer("15", 5);
 
     }
+    // --- FIM DAS QUESTÕES DO JOGO RPG.
     
-    // LOGOS DO RPG:
+    
+    // --- AS LOGOS DO JOGO RPG ESTÃO AQUI ABAIXO:
     
     public static void fourthQuestionLogo() {
         System.out.println((char) 27 + "[30;44m             ________________________________________________              ");
@@ -543,4 +545,42 @@ public class Grupo8ProjetoIntegrador {
         System.out.println((char) 27 + "[30;44m`---._.-------------------------------------------------------------._.---'");
     }
 
+    public static void fivethQuestionLogo() {
+
+        System.out.println((char) 27 + "[42m                 /'.    /|    .'\\                     ");
+        System.out.println((char) 27 + "[42m            ,._   |+i\\  /++\\  / +|    ,,             ");
+        System.out.println((char) 27 + "[42m            |*+'._/+++\\/+ ++\\/+++<_.-'+|             ");
+        System.out.println((char) 27 + "[42m       :-.  \\ ++++?++ +++++*++++++ +++ /  .-:         ");
+        System.out.println((char) 27 + "[42m       |*+\\_/++++ +++*++ ++++++ ++?++++\\_/ +|        ");
+        System.out.println((char) 27 + "[42m   ,    \\*+++++ ++++ +++*+++ ++++ +++ +++++/   ,      ");
+        System.out.println((char) 27 + "[42m   \\'-._> +__+*++__*+++_+__*++ ++__++++__*<_.-'/      ");
+        System.out.println((char) 27 + "[42m    `>*+++|  \\++/  |+*/     `\\ +|  |++/  |++++<'     ");
+        System.out.println((char) 27 + "[42m _,-'+ * +*\\  \\/  /++|__.-.  |+ |  |+/  /+ +*+'-._   ");
+        System.out.println((char) 27 + "[42m '-.*+++++++\\    /+ ++++++/  / *|  |/  /+ ++++++.-'   ");
+        System.out.println((char) 27 + "[42m     > *+++++\\  /*++++ +/` /`+++|     < *++ +++<      ");
+        System.out.println((char) 27 + "[42m _,-'* +++ ++|  |++ +*/` /` +* +|  |\\  \\+ ++++++'-._ ");
+        System.out.println((char) 27 + "[42m `-._+ +*++?+|  |+++*|  '-----.+|  |+\\  \\+* ++ +_.-' ");
+        System.out.println((char) 27 + "[42m    _`\\++++++|__|+ *+|________|+|__|++\\__|++++/`_    ");
+        System.out.println((char) 27 + "[42m   /*++_+* + +++++ ++ + ++++ +++++ ++ ++++ ++_+*+\\    ");
+        System.out.println((char) 27 + "[42m   '--' `>*+++ +++++ +++++*++++  +++ ++++ ?<' '--'     ");
+        System.out.println((char) 27 + "[42m        /++_++ ++ ++++++ ++?+ +++++*+++ ++++ \\        ");
+        System.out.println((char) 27 + "[42m        |_/ `\\++ ++ +++*++++++++++ ++++*./`\\_|       ");
+        System.out.println((char) 27 + "[42m             /+*.-.*+ +_ ++*+ _+++ .-.* +\\            ");
+        System.out.println((char) 27 + "[42m       jgs   | /   | +/ `\\?+/` \\*+|    \\ |          ");
+        System.out.println((char) 27 + "[42m              '    \\.'    |/    './     '             ");
+    }
+
+    public static void sixthQuestionLogo() {
+        System.out.println((char) 27 + "[30;44m  ______________ ");
+        System.out.println((char) 27 + "[30;44m |[]            |");
+        System.out.println((char) 27 + "[30;44m |  __________  |");
+        System.out.println((char) 27 + "[30;44m |  | SAVE   |  |");
+        System.out.println((char) 27 + "[30;44m |  |  AND   |  |");
+        System.out.println((char) 27 + "[30;44m |  |_EXIT___|  |");
+        System.out.println((char) 27 + "[30;44m |   ________   |");
+        System.out.println((char) 27 + "[30;44m |   [ [ ]  ]   |");
+        System.out.println((char) 27 + "[30;44m \\___[_[_]__]___|");
+    }
+    
+    // -- FIM DAS FUNÇÕES DE LOGO. --
 }
