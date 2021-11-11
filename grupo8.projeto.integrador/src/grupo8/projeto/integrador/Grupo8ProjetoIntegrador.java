@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package grupo8.projeto.integrador;
 
 import java.util.ArrayList;
@@ -13,7 +9,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author muril
+ * @author muril, marcos, igor
  */
 public class Grupo8ProjetoIntegrador {
 
@@ -475,6 +471,46 @@ public class Grupo8ProjetoIntegrador {
 
         verifyAnswer(mylist, "Verdadeiro ou falso", 3);
     }
+    
+    public static void fivethQuestion() {
+        System.out.println("");
+        System.out.println("-------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("| Todas as barreiras foram superadas e agora temos o acesso ao sistema, escreva um laço de                                           |");
+        System.out.println("| repetição que deixe o valor como zero de todas as contas negativadas.                                                              |");
+        System.out.println("|                                                                                                                                    |");
+        System.out.println("|        do {                                                                                                                        |");
+        System.out.println("|            System.out.println(\"Id da Conta: \" + contas[0][contador] + \" - \" + \"Saldo anterior R$: \" + contas[1][contador]);  |");
+        System.out.println("|            //ADICIONE SEU CODIGO AQUI                                                                                              |");
+        System.out.println("|            System.out.println(\"Id da Conta: \" + contas[0][contador] + \" - \" + \"Saldo atual R$: \" + contas[1][contador]);     |");
+        System.out.println("|            contador++;                                                                                                             |");
+        System.out.println("|        } while (contador < contas[0].length);                                                                                      |");
+        System.out.println("|                                                                                                                                    |");
+        System.out.println("-------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("");
+
+        verifyAnswer("contas[1][contador] = 0;", 4);
+    }
+    
+    public static void sixthQuestion() { 
+        System.out.println("");
+        System.out.println("-------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("| Para sair sem deixar rastro insira o codigo de desativação da invasão                                                              |");
+        System.out.println("|                                                                                                                                    |");
+        System.out.println("|        int n = 5, a = 0, b = 1, c = b;                                                                                             |");
+        System.out.println("|        for (b = 1; b <= n; b++) {                                                                                                  |");
+        System.out.println("|            for (c = b; c <= n; c++) {                                                                                              |");
+        System.out.println("|                a = a + 1;                                                                                                          |");
+        System.out.println("|            }                                                                                                                       |");
+        System.out.println("|        }                                                                                                                           |");
+        System.out.println("|        System.out.printf(\"%d \\n\", a);                                                                                           |");
+        System.out.println("-------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("");
+
+        verifyAnswer("15", 5);
+
+    }
+    
+    // LOGOS DO RPG:
     
     public static void fourthQuestionLogo() {
         System.out.println((char) 27 + "[30;44m             ________________________________________________              ");
