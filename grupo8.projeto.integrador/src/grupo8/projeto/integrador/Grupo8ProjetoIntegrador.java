@@ -455,6 +455,56 @@ public class Grupo8ProjetoIntegrador {
         System.out.println("");
     }
 
+    public static void fourthquestion() {
+        System.out.println("");
+        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println("| Parabéns! Mas que belo script é esse que você criou, ele infectou tudo.                           |");
+        System.out.println("| Nós estamos a um passo de acabar com as dívidas de todos os clientes do banco X.                  |");
+        System.out.println("| Agora, para confirmar o nosso ataque, complete a seguinte afirmação:                              |");
+        System.out.println("| Quando usamos os operadores relacionais com valor em cada lado, resulta em...                     |");
+        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println("");
 
+        ArrayList<String> mylist = new ArrayList<String>();
+
+        mylist.add("Verdadeiro ou falso");
+        mylist.add("Strings");
+        mylist.add("Uma condição");
+        mylist.add("Condição");
+        mylist.add("Em uma atribuição");
+
+        verifyAnswer(mylist, "Verdadeiro ou falso", 3);
+    }
+    
+    public static void fourthQuestionLogo() {
+        System.out.println((char) 27 + "[30;44m             ________________________________________________              ");
+        System.out.println((char) 27 + "[30;44m            /                                                \\             ");
+        System.out.println((char) 27 + "[30;44m           |    _________________________________________     |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |  C:\\> _                                 |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |                                         |    |            ");
+        System.out.println((char) 27 + "[30;44m           |   |_________________________________________|    |            ");
+        System.out.println((char) 27 + "[30;44m           |                                                  |            ");
+        System.out.println((char) 27 + "[30;44m            \\_________________________________________________/            ");
+        System.out.println((char) 27 + "[30;44m                   \\___________________________________/                   ");
+        System.out.println((char) 27 + "[30;44m                ___________________________________________                ");
+        System.out.println((char) 27 + "[30;44m             _-'    .-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.  --- `-_             ");
+        System.out.println((char) 27 + "[30;44m          _-'.-.-. .---.-.-.-.-.-.-.-.-.-.-.-.-.-.-.--.  .-.-.`-_          ");
+        System.out.println((char) 27 + "[30;44m       _-'.-.-.-. .---.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-`__`. .-.-.-.`-_       ");
+        System.out.println((char) 27 + "[30;44m    _-'.-.-.-.-. .-----.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----. .-.-.-.-.`-_    ");
+        System.out.println((char) 27 + "[30;44m _-'.-.-.-.-.-. .---.-. .-------------------------. .-.---. .---.-.-.-.`-_ ");
+        System.out.println((char) 27 + "[30;44m:-------------------------------------------------------------------------:");
+        System.out.println((char) 27 + "[30;44m`---._.-------------------------------------------------------------._.---'");
+    }
 
 }
