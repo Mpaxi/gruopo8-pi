@@ -453,31 +453,31 @@ public class Grupo8ProjetoIntegrador {
     public static void firstQuestion() {
         System.out.println("");
         System.out.println("-------------------------------------------------------------------------------------------------");
-        System.out.println("|  Você está no começo do seu expediente, vamos começar com o plano com calma. Primeiro de tudo, |");
+        System.out.println("|  Vocï¿½ estï¿½ no comeï¿½o do seu expediente, vamos comeï¿½ar com o plano com calma. Primeiro de tudo, |");
         System.out.println("|  vamos ligar o computador. Para ligar o computador escolha a alternativa que                   |");
-        System.out.println("|  NÃO tem relação com estruturas de repetição.                                                  |");
+        System.out.println("|  Nï¿½O tem relaï¿½ï¿½o com estruturas de repetiï¿½ï¿½o.                                                  |");
         System.out.println("-------------------------------------------------------------------------------------------------");
         System.out.println("");
 
         ArrayList<String> mylist = new ArrayList<String>();
 
         mylist.add("Contadores");
-        mylist.add("Estrutura “for”");
-        mylist.add("Estrutura “while”");
-        mylist.add("Incrementações");
-        mylist.add("Bifurcação");
+        mylist.add("Estrutura ï¿½forï¿½");
+        mylist.add("Estrutura ï¿½whileï¿½");
+        mylist.add("Incrementaï¿½ï¿½es");
+        mylist.add("Bifurcaï¿½ï¿½o");
 
-        verifyAnswer(mylist, "Bifurcação", 0);
+        verifyAnswer(mylist, "Bifurcaï¿½ï¿½o", 0);
 
     }
 
     public static void secondQuestion() {
         System.out.println("");
         System.out.println("----------------------------------------------------------------------------------------------------");
-        System.out.println("|  Pronto, conseguimos logar, graças à sua boa memória! (nem tanto por demorar um pouco).           |");
-        System.out.println("|  Agora precisamos desativar o firewall do sistema sem que ninguém perceba,                        |");
-        System.out.println("|  para isso resolva esta pequena questão: “O uso de variáveis é extremamente comum em programação. |");
-        System.out.println("|  Escolha uma variável que não seja primitiva em Java.”                                            |");
+        System.out.println("|  Pronto, conseguimos logar, graï¿½as ï¿½ sua boa memï¿½ria! (nem tanto por demorar um pouco).           |");
+        System.out.println("|  Agora precisamos desativar o firewall do sistema sem que ninguï¿½m perceba,                        |");
+        System.out.println("|  para isso resolva esta pequena questï¿½o: ï¿½O uso de variï¿½veis ï¿½ extremamente comum em programaï¿½ï¿½o. |");
+        System.out.println("|  Escolha uma variï¿½vel que nï¿½o seja primitiva em Java.ï¿½                                            |");
         System.out.println("----------------------------------------------------------------------------------------------------");
         System.out.println("");
 
@@ -492,6 +492,60 @@ public class Grupo8ProjetoIntegrador {
         verifyAnswer(mylist, "Scanner entradaDeDados = new Scanner(System.in)", 1);
 
     }
+
+    public static void thirdQuestion() {
+        System.out.println("");
+        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println("| Firewall destruÃ­do! Agora podemos comeÃ§ar o trabalho sujo. Crie um script para comeÃ§ar a infecÃ§Ã£o.|");
+        System.out.println("| Para ter Ãªxito com o script, escolha a alternativa em que hÃ¡ uma afirmaÃ§Ã£o falsa:                 |");
+        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println("");
+
+        ArrayList<String> mylist = new ArrayList<String>();
+
+        mylist.add("Strings em java pertence aos tipos primitivos");
+        mylist.add("O tipo inteiro em java Ã© um tipo primitivo");
+        mylist.add("O tipo â€œlongâ€ armazena nÃºmeros maiores que o tipo â€œintâ€");
+        mylist.add("Strings sÃ£o nada mais do que cadeias de caracteres");
+        mylist.add("Existe mais de um tipo primitivo para armazenar nÃºmero decimais.");
+
+        verifyAnswer(mylist, "Strings em java pertence aos tipos primitivos", 2);
+
+    }
+
+    public static void thirdQuestionLogo() {
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@...................................................................");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@@@@@@@@@@@@#/@@@@@@@@..((((((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@@@@@@@@@@###(@@@@@@@@..((((((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@@@@@@@@#####@@@@@@@@@..((((((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@@@@@@(####/#@@@@@@@@@..((((((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@@@@.####(/##@@@@@@@@@..((((((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@@@#####///##&@@@@@@@@..((((((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@(#####////###............................................................................");
+        System.out.println((char) 27 + "[31;43m*(@@@@@@@@######/////####((((((((((((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m #####.@ #######//////####(((((((((((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@*#############(///////####((((((((((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@(####/(######/////////#####((((((((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@#####//(####(//////////#####((((((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@#####(///###(//////*////#####(((((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@######//////#/////////////######..................................................................");
+        System.out.println((char) 27 + "[31;43m@@(#####/////////////////////######(##((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@.####/////////////**//**////########((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@#####/////////////,,////////#####(##((((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@*###////////////*,,/////////#####/###(((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@####///////////,,,,,////////####//###(((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@ ###//////////,,,,,,,/////////////(##(((((((((((((((((((((((((((.((((((((((((((((((((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@###(////////*,,,,,,,,*///////////##..............................................................");
+        System.out.println((char) 27 + "[31;43m@@@.###///////*,,,,,,,,,,,//////////##(((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@.##///////,,,,,,,,,,,,,/////////#((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@ ##//////,,,,,,,,,,,,,////////#(((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@##/////,,,,,,,,,,,,,///////#((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@%#/////,,,,,,,,,,,,/////(((((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@#////,,,,,,,,,*////#((((((((((((((((((..((((((((((((((((((((((((((((((((.(((((((((((((((.");
+        System.out.println((char) 27 + "[31;43m@@@@@@@@@@@@@@(#//,,,,,///(.........................................................................");
+
+    }
+
 
     public static void fourthquestion() {
         System.out.println("");
