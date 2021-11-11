@@ -450,6 +450,48 @@ public class Grupo8ProjetoIntegrador {
         System.out.println("");
         System.out.println("");
     }
+    public static void firstQuestion() {
+        System.out.println("");
+        System.out.println("-------------------------------------------------------------------------------------------------");
+        System.out.println("|  Você está no começo do seu expediente, vamos começar com o plano com calma. Primeiro de tudo, |");
+        System.out.println("|  vamos ligar o computador. Para ligar o computador escolha a alternativa que                   |");
+        System.out.println("|  NÃO tem relação com estruturas de repetição.                                                  |");
+        System.out.println("-------------------------------------------------------------------------------------------------");
+        System.out.println("");
+
+        ArrayList<String> mylist = new ArrayList<String>();
+
+        mylist.add("Contadores");
+        mylist.add("Estrutura “for”");
+        mylist.add("Estrutura “while”");
+        mylist.add("Incrementações");
+        mylist.add("Bifurcação");
+
+        verifyAnswer(mylist, "Bifurcação", 0);
+
+    }
+
+    public static void secondQuestion() {
+        System.out.println("");
+        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println("|  Pronto, conseguimos logar, graças à sua boa memória! (nem tanto por demorar um pouco).           |");
+        System.out.println("|  Agora precisamos desativar o firewall do sistema sem que ninguém perceba,                        |");
+        System.out.println("|  para isso resolva esta pequena questão: “O uso de variáveis é extremamente comum em programação. |");
+        System.out.println("|  Escolha uma variável que não seja primitiva em Java.”                                            |");
+        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println("");
+
+        ArrayList<String> mylist = new ArrayList<String>();
+
+        mylist.add("boolean acessoRestrito =  !((false || true) && (true && false))");
+        mylist.add("int codigoDeRede = 1204423");
+        mylist.add("Scanner entradaDeDados = new Scanner(System.in)");
+        mylist.add("bool acessarRede = false");
+        mylist.add("double justSomeData = 202.010101");
+
+        verifyAnswer(mylist, "Scanner entradaDeDados = new Scanner(System.in)", 1);
+
+    }
 
     public static void fourthquestion() {
         System.out.println("");
